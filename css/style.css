@@ -4,6 +4,10 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+:root{
+	--blue-color : #8cbae1;	
+}
+
 html, body{
     font-size: 100%;
 	background:	#fff;
@@ -529,7 +533,7 @@ p.testimonials-dummy{
 }
 .testimonials-grid-left-grid-right h4 i{
 	display:block;
-	color:#45CBBF;
+	color:var(--blue-color);
 	text-align:right;
 }
 .testimonials-grid-left-grid:nth-child(2){
@@ -843,10 +847,11 @@ ul.wmuSliderPagination {
     color: #fff;
     line-height: 1.8em;
     position: relative;
-    text-transform: capitalize;
     width: 80%;
-    margin: 0 auto;
-	padding-left: 1.5em;
+		margin: 0 auto;
+		font-size: 1em;
+		font-weight: normal;
+		font-style: italic;
 }
 .services-bottom h3:before{
 	content:'';
@@ -856,7 +861,7 @@ ul.wmuSliderPagination {
 	height:32px;
 	position:absolute;
 	top:0%;
-	left:0%;
+	left:-10%;
 }
 .services-bottom h3:after{
 	content:'';
@@ -866,14 +871,14 @@ ul.wmuSliderPagination {
 	height:32px;
 	position:absolute;
 	bottom:0%;
-	right:0%;
+	right:-10%;
 }
-.services-bottom p{
-	text-align:right;
-	font-style:italic;
+
+.services-bottom p i {
+	text-align: right;
+	color : var(--blue-color);
 	margin:1em 0 0;
-	color:#45CBBF;
-	font-size:2em;
+	font-size: .8em;
 }
 /*-- //services-bottom --*/
 /*-- news --*/
