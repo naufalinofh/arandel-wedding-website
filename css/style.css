@@ -7,22 +7,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 html, body{
     font-size: 100%;
 	background:	#fff;
-	font-family: 'Open Sans', sans-serif;
-}
-p{
-	margin:0;
+	font-family: Helvetica, serif;
 }
 
-@font-face{
-	font-family: frozito;
-	src : url("../css/frozito.tff");
-}
 h1,h2,h3,h4,h5,h6{
-	font-family: 'Poiret One', cursive;
+	font-family: 'Times New Roman', Times, serif;
 	font-weight:700;
 	margin:0;
 }
-
+.name {
+	text-transform: uppercase;
+}
 h1 img {
 	margin: auto;
 	width : 100%: 
@@ -46,7 +41,7 @@ input[type="submit"],.btn-primary,.date-tag-right a,.news-grid-right ul li a,.na
 	-o-transition:.5s ease-in-out;
 	-ms-transition:.5s ease-in-out;
 }
-.banner{
+.banner {
 	background:url(../images/background-header.png) no-repeat;
 	background-size:cover;
 	background-color: rgba(0,0,0,0.4);
@@ -54,8 +49,8 @@ input[type="submit"],.btn-primary,.date-tag-right a,.news-grid-right ul li a,.na
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-ms-background-size:cover;
-	min-height:800px;
-	padding:2em 0 0; 
+	height : auto ;
+	padding:2em 0 2em; 
 }
 .overlay{
 	background-color: rgba(0, 0, 0, 0.4);
@@ -74,7 +69,7 @@ input[type="submit"],.btn-primary,.date-tag-right a,.news-grid-right ul li a,.na
 }
 .logo{
 	float:left;
-	margin: 0 18em;
+	margin: 2em 18em;
 }
 
 .logo h1 a{
@@ -83,16 +78,11 @@ input[type="submit"],.btn-primary,.date-tag-right a,.news-grid-right ul li a,.na
     text-decoration: none;
     line-height: 0.2;
 }
-.logo h1 a span{
-	display: block;
-    max-width: 100%;
-		width: 100%;
-		height: auto;
-    margin: 0 auto;
-}
+
 .logo h1 a span img{
-	max-width: 100%;
-	width: 100%;
+	display:block;
+	max-width: inherit;
+	width: 80%;
 	height: auto;
   margin: auto;
 }
@@ -189,12 +179,12 @@ ul.social-icons li .icon-button .icon-youtube:hover{
 }
 /*-- //social-icons --*/
 .banner-info{
-	margin:13em auto 11em;
-    width: 85%;
-		text-align: center;
-		background: rgba(33, 33, 33, 0.57);
-		font-family: frozito;
-		color : #FFF;
+	margin: 3em auto;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	background: rgba(33, 33, 33, 0.57);
+	color : #FFF;
 }
 .banner-info p{
 	font-size: 2em;
@@ -1287,9 +1277,9 @@ h2.resp-accordion {
 	.banner-info p {
 		padding: 0em .3em;
 	}
-	.banner {
+	/*.banner {
 		min-height: 740px;
-	}
+	}*/
 	.nav-tabs > li:nth-child(1) {
 		margin-left: 26em;
 	}
@@ -1307,7 +1297,6 @@ h2.resp-accordion {
 		margin-left: 14em;
 	}
 	.banner-info {
-		margin: 10em auto 11em;
 		width: 95%;
 	}
 	.banner-info p {
@@ -1316,9 +1305,9 @@ h2.resp-accordion {
 	.navbar-nav > li > a {
 		padding: 13px 18px;
 	}
-	.banner {
+	/*.banner {
 		min-height: 665px;
-	}
+	}*/
 	.banner-bottom, .testimonials, .team, .services, .news, .gallery, .contact {
 		padding: 4em 0;
 	}
@@ -1404,21 +1393,20 @@ h2.resp-accordion {
 		font-size: 1.7em;
 	}
 	.logo {
-		margin-left: 6em;
+		margin:2em 6em;
 	}
 	.banner-info p {
 		font-size: 3.7em;
 	}
 	.banner-info {
-		margin: 8em auto 11em;
 		width: 100%;
 	}
 	.link-effect-14 a {
 		margin: 0 4px;
 	}
-	.banner {
+	/*.banner {
 		min-height: 600px;
-	}
+	}*/
 	.banner-bottom, .testimonials, .team, .services, .news, .gallery, .contact {
 		padding: 3em 0;
 	}
@@ -1523,11 +1511,11 @@ h2.resp-accordion {
 	}
 }
 @media (max-width:800px){
-	.banner {
+	/*.banner {
 		min-height: 530px;
-	}
+	}*/
 	.banner-info {
-		margin: 8em auto 7em;
+		margin: auto;
 	}
 	.gallery h3 span:before {
 		left: 48.2%;
@@ -1621,20 +1609,20 @@ h2.resp-accordion {
 		font-size: 1.4em;
 	}
 	.logo {
-		margin:0 4em;
+		margin:2em 4em;
 	}
 	.banner-info p {
 		font-size: 3em;
 	}
 	.banner-info {
-		margin: 6em auto 5em;
+		margin: auto;
 	}
 	.navbar-toggle {
 		margin: 0 0 0 18em;
 	}
-	.banner {
+	/*.banner {
 		min-height: 435px;
-	}
+	}*/
 	.mail-grid-left input[type="submit"] {
 		margin-left: 25.8em;
 	}
@@ -1701,7 +1689,7 @@ h2.resp-accordion {
 		font-size: 1.2em;
 	}
 	.logo {
-		margin-left: 3em;
+		margin:2em 3em;
 	}
 	.navbar-toggle {
 		margin: 0 0 0 16em;
@@ -1719,7 +1707,7 @@ h2.resp-accordion {
 		background-size: 600%;
 	}
 	.logo {
-		margin: 0 2em;
+		margin: 2em 2em;
 	}
 	.banner-phone p {
 		margin: 2em 0 0;
@@ -1792,7 +1780,7 @@ h2.resp-accordion {
 		font-size: 2em;
 	}
 	.banner-info {
-		margin: 5em auto 4em;
+		margin: auto;
 	}
 	.navbar-toggle {
 		margin: 0 0 0 12.5em;
@@ -1866,7 +1854,7 @@ h2.resp-accordion {
 		font-size: 1.3em;
 	}
 	.logo {
-		margin-left: 0;
+		margin: 2em 0;
 	}
 	.date-tag-left p {
 		font-size: 14px;
@@ -2223,7 +2211,7 @@ h2.resp-accordion {
 		font-size: 1.4em;
 	}
 	.banner-info {
-		margin: 4em auto 3em;
+		margin: auto ;
 	}
 	.banner {
 		min-height: 315px;
