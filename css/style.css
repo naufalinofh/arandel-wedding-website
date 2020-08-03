@@ -5,7 +5,8 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 :root{
-	--blue-color : #8cbae1;	
+	--blue-color : #8cbae1;
+	--blue-dark : #0a4670;	
 }
 
 html, body{
@@ -704,12 +705,12 @@ ul.wmuSliderPagination {
     padding: 1.5em;
 	margin:0 auto 2em;
 }
-.btn-primary {
+/*.btn-primary {
     color:#212121;
     background: none;
     border: none;
     text-transform: capitalize;
-}
+}*/
 .btn-lg{
     font-size:1.3em;
 	font-family: 'Poiret One', cursive;
@@ -717,11 +718,13 @@ ul.wmuSliderPagination {
 	padding: 0;
     border-radius: 0;
 }
+/*
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
     color: #E84C3D;
     background: none;
     border: none;
-}
+}*/
+
 .btn:active{
     box-shadow: none;
 }
