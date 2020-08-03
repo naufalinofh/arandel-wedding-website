@@ -48,7 +48,7 @@ input[type="submit"],.btn-primary,.date-tag-right a,.news-grid-right ul li a,.na
 	-ms-transition:.5s ease-in-out;
 }
 .banner {
-	background:url(../images/background-header.png) no-repeat;
+	background: url(../images/background-header.png);
 	background-size:cover;
 	background-color: rgba(0,0,0,0.4);
 	-webkit-background-size:cover;
@@ -57,9 +57,6 @@ input[type="submit"],.btn-primary,.date-tag-right a,.news-grid-right ul li a,.na
 	-ms-background-size:cover;
 	height : auto ;
 	padding:2em 0 2em; 
-}
-.overlay{
-	background-color: rgba(0, 0, 0, 0.4);
 }
 .banner-phone{
 	float:left;
@@ -834,9 +831,12 @@ ul.wmuSliderPagination {
 }
 /* ---------- /TIMER ---------- */
 /*-- //services --*/
+
 /*-- services-bottom --*/
-.services-bottom{
-	background:url(../images/12.jpg) no-repeat 0px 0px;
+.services-bottom {
+	background:url(../images/ring.jpg) no-repeat;
+	background-blend-mode: multiply;
+	background-color: rgba(0,0,0,.3);
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -844,19 +844,20 @@ ul.wmuSliderPagination {
 	-ms-background-size:cover;
 	min-height:400px;
 	padding:7em 0 0;
+	width : 100%;
 	text-align:center;
 }
-.services-bottom h3{
+.services-bottom h2{
     color: #fff;
     line-height: 1.8em;
     position: relative;
     width: 80%;
 		margin: 0 auto;
-		font-size: 1em;
+		font-size: 1.5em;
 		font-weight: normal;
 		font-style: italic;
 }
-.services-bottom h3:before{
+.services-bottom h2:before{
 	content:'';
 	background:url(../images/img-sp.png) no-repeat -52px -150px;
 	display:block;
@@ -866,7 +867,7 @@ ul.wmuSliderPagination {
 	top:0%;
 	left:-10%;
 }
-.services-bottom h3:after{
+.services-bottom h2:after{
 	content:'';
 	background:url(../images/img-sp.png) no-repeat -5px -150px;
 	display:block;
@@ -881,7 +882,7 @@ ul.wmuSliderPagination {
 	text-align: right;
 	color : var(--blue-color);
 	margin:1em 0 0;
-	font-size: .8em;
+	font-size: 1.2em;
 }
 /*-- //services-bottom --*/
 /*-- news --*/
@@ -1272,14 +1273,12 @@ h2.resp-accordion {
 .copyright p a:hover{
 	color:#fff;
 }
+
 /*-- //footer --*/
 /*-----start-responsive-design------*/
 @media (max-width:1440px){
 	.nav-tabs > li:nth-child(1) {
 		margin-left: 29em;
-	}
-	.services-bottom {
-		background-position: -90px 0px;
 	}
 }
 @media (max-width:1366px){
@@ -1295,7 +1294,6 @@ h2.resp-accordion {
 }
 @media (max-width: 1280px){
 	.services-bottom {
-		background-position: -160px 0px;
 	}
 	.b-wrapper h5 {
 		margin: 1.5em 0 .5em;
@@ -1355,12 +1353,11 @@ h2.resp-accordion {
 		width: 85%;
 	}
 	.services-bottom {
-		background-position: -150px 0px;
 		min-height: 330px;
 		padding: 5em 0 0;
 	}
 	.services-bottom p {
-		font-size: 1.8em;
+		font-size: 1.2em;
 	}
 	.btn-primary1 {
 		font-size: 1.2em !important;
@@ -1556,12 +1553,14 @@ h2.resp-accordion {
 	.services-bottom h2:after {
 		right: 13%;
 	}
+	.services-bottom h2 {
+		font-size: 1.3em;
+	}
 	.services-bottom p {
-		font-size: 1.5em;
+		font-size: 1em;
 	}
 	.services-bottom {
 		padding: 3em 0 0;
-		background-position: -225px 0px;
 		min-height: 300px;
 	}
 	.blog-grid-right {
@@ -1656,10 +1655,9 @@ h2.resp-accordion {
 		left: 27.9%;
 	}
 	.services-bottom h2 {
-		font-size: 1.5em;
+		font-size: 1.2em;
 	}
 	.services-bottom {
-		background-position: -270px 0px;
 		min-height: 280px;
 	}
 	.services-grids-wedding1 {
@@ -1855,12 +1853,11 @@ h2.resp-accordion {
 		right: -6%;
 	}
 	.services-bottom {
-		padding: 2em 0 0;
-		background-position: -225px 0px;
+		padding: 2em 0 0;		
 		min-height: 220px;
 	}
 	.services-bottom p {
-		font-size: 1.3em;
+		font-size: .9em;
 	}
 	.logo {
 		margin: 2em 0;
@@ -2029,7 +2026,6 @@ h2.resp-accordion {
 		width: 70%;
 	}
 	.services-bottom {
-		background-position: -325px 0px;
 		min-height: 250px;
 	}
 	.news-grid-left,.news-grid-right,.mail-grid-left,.mail-grid-right {
@@ -2205,7 +2201,7 @@ h2.resp-accordion {
 		min-height: 220px;
 	}
 	.services-bottom p {
-		font-size: 1.1em;
+		font-size: .85em;
 	}
 	.modal-title,.services-grids-wedding h5 {
 		font-size: 1.3em;
