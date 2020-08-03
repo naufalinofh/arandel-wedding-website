@@ -26,7 +26,7 @@ h1,h2,h3,h4,h5,h6{
 
 h1 img {
 	margin: auto;
-	width : 100%: 
+	width : 100%; 
 }
 ul,label{
 	margin:0;
@@ -494,7 +494,7 @@ position:relative;
 	left:28%;
 }
 .testimonials h3 span:after,.testimonials h3 span:before,.testimonials-grid-right h3 span:before,.testimonials-grid-right h3 span:after{
-	content: '';
+		content: '';
     border: 1px solid #45CBBF;
     width: 10px;
     height: 10px;
@@ -545,7 +545,7 @@ p.testimonials-dummy{
 	position: relative;
 	overflow: hidden;
 }
-.wmuSlider .wmuSliderWrapper article img {
+.wmuSlider, .wmuSliderWrapper article img{
 	/*--max-width: 100%;
 	width: auto;
 	height: auto;
