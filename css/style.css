@@ -531,7 +531,7 @@ p.testimonials-dummy{
 }
 .testimonials-grid-left-grid-right h4 i{
 	display:block;
-	color:var(--blue-color);
+	color:var(--blue-dark);
 	text-align:right;
 }
 .testimonials-grid-left-grid:nth-child(2){
@@ -1251,9 +1251,12 @@ h2.resp-accordion {
 .footer-logo a{
 	font-size: 3em;
     color: #fff;
-		background: url(../images/logo-arandel.png) no-repeat 0px -100px;
-		background-size : contain;
     text-decoration: none;
+}
+
+.footer-logo a img{
+	max-width : 30%;
+	width : 100%;
 }
 .footer-logo p{
 	font-size: 14px;
@@ -1580,6 +1583,9 @@ h2.resp-accordion {
 	}
 	.map iframe {
 		min-height: 300px;
+	}
+	.footer-logo a img{
+		max-width : 50%;
 	}
 }
 @media (max-width:767px){
@@ -1927,6 +1933,9 @@ h2.resp-accordion {
 		font-size: 2em;
 		background: url(../images/img-sp.png) no-repeat -4px -127px;
 		background-size: 150%;
+	}
+	.footer-logo a img{
+		max-width : 75%;
 	}
 	.footer-logo p {
 		width: 45%;
