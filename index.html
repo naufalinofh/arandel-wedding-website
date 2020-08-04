@@ -34,18 +34,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- timer -->
 <link rel="stylesheet" href="css/jquery.countdown.css" />
 <!-- //timer -->
-<!-- start-smoth-scrolling -->
-<script type="text/javascript">
-	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){		
-			event.preventDefault();
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-		});
-	});
-</script>
-<!-- start-smoth-scrolling -->
-</head>
-	
+</head>	
 <body>
 <!-- banner -->
 	<div class="banner" id="home1">
@@ -196,6 +185,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 <!-- //footer -->
 <!-- for bootstrap working -->
+<!-- start-smoth-scrolling -->
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
 <script src="js/wow.min.js"></script>
 <script>
  new WOW().init();

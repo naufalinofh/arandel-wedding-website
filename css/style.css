@@ -1185,7 +1185,7 @@ h2.resp-accordion {
 /*-- //mail-us --*/
 /*-- footer --*/
 .footer{
-	background:url(../images/background-header.png) no-repeat;
+	background:url(../images/background-header.webp) no-repeat;
 	background-blend-mode: multiply;
 	background-color: rgba(0,0,0,.3);
 	background-size:cover;
