@@ -6,17 +6,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 :root{
 	--blue-color : #8cbae1;
-	--blue-dark : #0a4670;	
+	--blue-dark : #4C316C;	
 }
 
 html, body{
-    font-size: 100%;
+  font-size: 100%;
 	background:	#fff;
-	font-family: Helvetica, serif;
+	font-family: Roboto, sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6{
-	font-family: 'Times New Roman', Times, serif;
+	font-family: Bitter, serif;
 	font-weight:700;
 	margin:0;
 }
@@ -342,7 +342,7 @@ ul.social-icons li .icon-button .icon-youtube:hover{
 }
 .banner-bottom h3:before,.banner-bottom h3:after,.team h3:before,.team h3:after,.services h3:before,.services h3:after,.news h3:before,.news h3:after,.newsletter h3:before,.newsletter h3:after,.gallery h3:before,.gallery h3:after,.contact h3:before,.contact h3:after{
 	content: '';
-    background: #C2BBA1;
+    background: var(--blue-color);
     height: 1px;
     position: absolute;
     bottom:5.5%;
@@ -360,7 +360,7 @@ ul.social-icons li .icon-button .icon-youtube:hover{
     position: absolute;
     bottom: 0;
     width: 10px;
-    border: 1px solid #c2bba1;
+    border: 1px solid var(--blue-color);
     transform: rotate(45deg);
 }
 /*-- agileits --*/
@@ -478,7 +478,7 @@ position:relative;
 }
 .testimonials h3:after,.testimonials h3:before,.testimonials-grid-right h3:after,.testimonials-grid-right h3:before{
 	content: '';
-    background: #45CBBF;
+    background: var(--blue-color);
     width: 20%;
     height: 1px;
     position: absolute;
@@ -492,7 +492,7 @@ position:relative;
 }
 .testimonials h3 span:after,.testimonials h3 span:before,.testimonials-grid-right h3 span:before,.testimonials-grid-right h3 span:after{
 		content: '';
-    border: 1px solid #45CBBF;
+    border: 1px solid var(--blue-color);
     width: 10px;
     height: 10px;
     position: absolute;
@@ -531,7 +531,7 @@ p.testimonials-dummy{
 }
 .testimonials-grid-left-grid-right h4 i{
 	display:block;
-	color:var(--blue-dark);
+	color:var(--blue-color);
 	text-align:right;
 }
 .testimonials-grid-left-grid:nth-child(2){
@@ -1229,8 +1229,11 @@ h2.resp-accordion {
 /*-- //mail-us --*/
 /*-- footer --*/
 .footer{
-	background:url(../images/24.jpg) no-repeat 0px 0px;
+	background:url(../images/background-header.png) no-repeat;
+	background-blend-mode: multiply;
+	background-color: rgba(0,0,0,.3);
 	background-size:cover;
+	background-position : center bottom;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
@@ -1248,9 +1251,9 @@ h2.resp-accordion {
 .footer-logo a{
 	font-size: 3em;
     color: #fff;
-    background: url(../images/img-sp.png) no-repeat -6px -198px;
+		background: url(../images/logo-arandel.png) no-repeat 0px -100px;
+		background-size : contain;
     text-decoration: none;
-    padding-left: 1.5em;
 }
 .footer-logo p{
 	font-size: 14px;
