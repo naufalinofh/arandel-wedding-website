@@ -19,13 +19,6 @@
 	bottom: 0;
 	position:absolute;
 }
-.countDays{ /* display:none !important;*/ }
-.countDiv0{ /* display:none !important;*/ }
-.countHours{}
-.countDiv1{}
-.countMinutes{}
-.countDiv2{}
-.countSeconds{}
 .countDiv{
 	display:inline-block;
 	width:35px;
@@ -77,13 +70,6 @@
 	}
 }
 @media (max-width:480px){
-.countDays{ /* display:none !important;*/ }
-.countDiv0{ /* display:none !important;*/ }
-.countHours{}
-.countDiv1{}
-.countMinutes{}
-.countDiv2{}
-.countSeconds{}
 .countDiv{
 	width:30px !important;
 }
