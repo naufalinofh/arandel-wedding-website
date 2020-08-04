@@ -711,6 +711,7 @@ ul.wmuSliderPagination {
 }*/
 .btn-lg{
     font-size:1.3em;
+	font-family: 'Poiret One', cursive;
 	font-weight:900;
 	padding: 0;
     border-radius: 0;
@@ -818,6 +819,16 @@ ul.wmuSliderPagination {
 	text-shadow: none;
 	color:#999;
     display: none;
+}
+.boxName {
+	float: left;
+    width: 100%;
+    font-size: 14px;
+    color: #999;
+    font-weight: 500;
+    clear: both;
+    padding: 0px;
+	font-family: 'Open Sans', sans-serif;
 }
 /* ---------- /TIMER ---------- */
 /*-- //services --*/
