@@ -1169,62 +1169,18 @@ h2.resp-accordion {
 /*-- mail-us --*/
 .mail-grids{
 	margin:3em 0 0;
+	text-align: center;
 }
-.mail-grid-left input[type="text"],.mail-grid-left input[type="email"],.mail-grid-left textarea{
-	outline: none;
-    border: 1px solid #DFDFDF;
-    background: none;
-    padding: 10px;
-    font-size: 14px;
-    color: #212121;
-    width: 100%;
-}
-.mail-grid-left input[type="email"]{
-	margin:1em 0;
-}
-.mail-grid-left textarea{
-	min-height:200px;
-	margin:1em 0 .8em;
-}
-.mail-grid-left input[type="submit"]{
-	outline: none;
-    border: none;
-    background: #45CBBF;
-    padding: 8px 0;
-    font-size: 1em;
-    color: #fff;
-    width: 30%;
-    margin-left: 23.6em;
-}
-.mail-grid-left input[type="submit"]:hover{
-	background:#E84C3D;
-}
+
 .get-in h4{
 	font-size:1.3em;
 	color:#212121;
-	margin:0;
+	margin: 1em 0;
 }
-.get-in ul{
-	padding:1.5em 0 0;
-}
-.get-in ul li{
-	list-style-type:none;
-	margin-bottom:1em;
-	font-size:14px;
-	color:#999;
-	padding-left:1em;
-}
-.get-in ul li span{
-	left:-1em;
-	color:#45CBBF;
-}
-.get-in:nth-child(2){
-	margin:5em 0 0;
-}
-.map iframe{
-	width:100%;
-	min-height:350px;
-	margin-bottom:-6px;
+
+.get-in p{
+	margin-top: 1em;
+	text-align: left;
 }
 /*-- //mail-us --*/
 /*-- footer --*/
