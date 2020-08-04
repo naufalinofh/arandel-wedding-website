@@ -531,7 +531,7 @@ p.testimonials-dummy{
 }
 .testimonials-grid-left-grid-right h4 i{
 	display:block;
-	color:var(--blue-color);
+	color:var(--blue-dark);
 	text-align:right;
 }
 .testimonials-grid-left-grid:nth-child(2){
@@ -542,12 +542,13 @@ p.testimonials-dummy{
 	position: relative;
 	overflow: hidden;
 }
-.wmuSlider, .wmuSliderWrapper article img{
-	/*--max-width: 100%;
+/*--
+.wmuSlider .wmuSliderWrapper article img{
+	max-width: 100%;
 	width: auto;
 	height: auto;
-	display:block;--*/
-}
+	display:block;
+}--*/
 /* Default Skin */
 .wmuSliderPagination {
 	z-index: 2;
@@ -767,7 +768,7 @@ ul.wmuSliderPagination {
     width:42%;
 }
 .services-grids-wedding-left img,.services-grids-wedding-right img{
-    border: 3px solid #C2BBA1;
+    border: 3px solid var(--blue-color);
     border-radius: 100%;
 	-webkit-border-radius: 100%;
 	-moz-border-radius: 100%;
@@ -780,7 +781,7 @@ ul.wmuSliderPagination {
 }
 .services-grids-wedding-right h4,.services-grids-wedding-left h4{
 	font-size:1em;
-	color:#45CBBF;
+	color:var(--blue-dark);
 	margin:1em 0;
 }
 .services-grids-wedding h5{
@@ -1293,8 +1294,6 @@ h2.resp-accordion {
 	}
 }
 @media (max-width: 1280px){
-	.services-bottom {
-	}
 	.b-wrapper h5 {
 		margin: 1.5em 0 .5em;
 	}
