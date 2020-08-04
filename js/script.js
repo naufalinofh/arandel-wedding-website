@@ -20,10 +20,7 @@ $(document).ready(function(){
 		function(){ $(this).animate({ top: 3 }, 'fast'); },
 		function(){ $(this).animate({ top: 0 }, 'fast'); }
 	);
-
-
 	/* ---- Using Modernizr to check if the "required" and "placeholder" attributes are supported ---- */
-
 	if (!Modernizr.input.placeholder) {
 		$('.email').val('Input your e-mail address here...');
 		$('.email').focus(function() {
@@ -52,6 +49,4 @@ $(document).ready(function(){
 			$('.popup').remove();
 		});
 	}
-
-
 });
