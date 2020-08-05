@@ -5,7 +5,7 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 :root{
-	--blue-color : #8cbae1;
+	--blue-color : #ACCEEC;
 	--blue-dark : #4C316C;	
 }
 
@@ -1178,6 +1178,7 @@ h2.resp-accordion {
 .get-in p{
 	margin-top: 1em;
 	text-align: left;
+	padding : 0 1em;
 }
 /*-- //mail-us --*/
 /*-- footer --*/
