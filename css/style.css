@@ -532,7 +532,6 @@ p.testimonials-dummy{
 .testimonials-grid-left-grid-right h4 i{
 	display:block;
 	color:var(--blue-dark);
-	text-align:right;
 }
 .testimonials-grid-left-grid:nth-child(2){
 	margin:2em 0 0;
@@ -835,9 +834,7 @@ ul.wmuSliderPagination {
 
 /*-- services-bottom --*/
 .services-bottom {
-	background:url(../images/ring.jpg) no-repeat;
-	background-blend-mode: multiply;
-	background-color: rgba(0,0,0,.3);
+	background:url(../images/ring.jpg) no-repeat center;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -1619,7 +1616,7 @@ h2.resp-accordion {
 		left: 27.9%;
 	}
 	.services-bottom h2 {
-		font-size: 1.2em;
+		font-size: 1.1em;
 	}
 	.services-bottom {
 		min-height: 280px;
@@ -1811,7 +1808,7 @@ h2.resp-accordion {
 		width: 60%;
 	}
 	.services-bottom h2 {
-		font-size: 1.2em;
+		font-size: 1em;
 	}
 	.services-bottom h2:after {
 		right: -6%;
@@ -2162,7 +2159,7 @@ h2.resp-accordion {
 		font-size: 13px;
 	}
 	.services-bottom h2 {
-		font-size: 1em;
+		font-size: .9em;
 	}
 	.services-bottom {
 		min-height: 220px;
