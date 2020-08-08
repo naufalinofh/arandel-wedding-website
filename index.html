@@ -24,6 +24,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!-- js -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="lazysizes.min.js" async=""></script>
+    <script src="blurry-load.js" async></script>
     <!-- //js -->
     <style>
         @font-face {
@@ -69,8 +70,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!-- banner -->
     <div class="banner" id="home1">
         <div class="container">
-            <div class="logo">
-                <h1><a href="index.html"><span><img src= "images/logo-arandel.webp"></span></a></h1>
+            <div class="footer-logo">
+                <a href="index.html"><img class="blurry-load" src="images/logo-arandel-low.png" data-large="images/logo-arandel.png"></a>
             </div>
         </div>
         <div class="banner-info">
@@ -242,7 +243,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <a href="#home1" class="scroll"><img src="images/7.png" alt=" " class="img-responsive" /></a>
             </div>
             <div class="footer-logo">
-                <a href="index.html"><img class="lazyload" src="images/logo-arandel.webp"></a>
+                <a href="index.html"><img class="lazyload blurry-load" src="images/logo-arandel-low.png" data-large="images/logo-arandel.png"></a>
                 <p>Follow Our Story</p>
             </div>
             <ul class="social-icons">

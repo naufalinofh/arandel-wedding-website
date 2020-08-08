@@ -1,3 +1,4 @@
+//@preserve Blurry Image Load
 class BlurryImageLoad {
     supportsCSSFilters(enableWebkit) {
         // Copied from https://stackoverflow.com/a/11047247
@@ -24,7 +25,7 @@ class BlurryImageLoad {
     load(images = document.querySelectorAll(".blurry-load")) {
         if (!this.supportsCSSFilters(true) && !this.supportsCSSFilters(false)) {
             /* If the browser does not support CSS filters
-            	Checks with and without the -webkit- prefix */
+              Checks with and without the -webkit- prefix */
             for (let image of images) {
                 image.src = "";
                 image.classList.add("no-blur");
@@ -32,8 +33,8 @@ class BlurryImageLoad {
             }
         }
         /* Fallback for browsers that don't support support CSS filters (mainly IE)
-        	If the browser doesn't support CSS filters,
-        	display a gray background with a shimmer gradient (see the CSS class no-blur for details) */
+          If the browser doesn't support CSS filters,
+          display a gray background with a shimmer gradient (see the CSS class no-blur for details) */
 
         for (let image of images) {
             const currentImage = new Image();
@@ -48,29 +49,3 @@ class BlurryImageLoad {
         // The main function that loads each image once the page has loaded
     }
 }
-
-$(document).ready(function() {
-    const blurryImageLoad = new BlurryImageLoad();
-    blurryImageLoad.load();
-
-    /* ---- Countdown timer ---- */
-
-    $('#counter').countdown({
-        timestamp: new Date('2020-08-22T01:00:00')
-    });
-
-
-    /* ---- Animations ---- */
-    $('#links a').hover(
-        function() { $(this).animate({ left: 3 }, 'fast'); },
-        function() { $(this).animate({ left: 0 }, 'fast'); }
-    );
-
-    $('footer a').hover(
-        function() { $(this).animate({ top: 3 }, 'fast'); },
-        function() { $(this).animate({ top: 0 }, 'fast'); }
-    );
-
-    // for detecting if the browser is Safari
-    var browser = navigator.userAgent.toLowerCase();
-});

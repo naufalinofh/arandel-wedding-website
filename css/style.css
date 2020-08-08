@@ -48,6 +48,65 @@ body a:hover {
 }
 
 
+/*blur*/
+
+.blurry-load {
+    filter: blur(8px);
+}
+
+@keyframes blurOut {
+    0% {
+        filter: blur(20px);
+    }
+    50% {
+        filter: blur(10px);
+    }
+    100% {
+        filter: blur(0px);
+    }
+}
+
+
+/* Create the blurOut animation
+ To be used for all images with the blur-image class */
+
+.blur-out {
+    animation: blurOut 0.5s ease-out;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: -100vw 0;
+    }
+    100% {
+        background-position: 100vw 0;
+    }
+}
+
+
+/* Create the shimmer animation
+ This will create left to right shimmer effect
+ for the no-blur class below
+ Use -100vw to 100vw for the background position property
+ to ensure that this will work with different sized elements
+ (using -100% to 100% was resulting in a shimmer effect that didn't move left to right) */
+
+.no-blur {
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: shimmer;
+    animation-timing-function: linear;
+    background: #f6f7f8;
+    background: gradient( linear, left top, right top, color-stop(8%, #eeeeee), color-stop(18%, #dddddd), color-stop(33%, #eeeeee));
+    background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+}
+
+
+/* The no-blur class will be applied when the browser does not support CSS filters
+ Instead of showing a blurred image, a gray div with the shimmer animation is shown */
+
+
 /*-- banner --*/
 
 .banner-dummy p,
@@ -78,6 +137,7 @@ p {
     -ms-background-size: cover;
     height: auto;
     padding: 2em 0 2em;
+    text-align: center;
 }
 
 .banner-phone {
@@ -93,26 +153,6 @@ p {
 .banner-phone p span {
     left: -1em;
     color: #45CBBF;
-}
-
-.logo {
-    float: left;
-    margin: 2em 18em;
-}
-
-.logo h1 a {
-    font-size: 2em;
-    color: #fff;
-    text-decoration: none;
-    line-height: 0.2;
-}
-
-.logo h1 a span img {
-    display: block;
-    max-width: inherit;
-    width: 80%;
-    height: auto;
-    margin: auto;
 }
 
 .banner-social {
@@ -1638,6 +1678,9 @@ h2.resp-accordion {
 }
 
 @media (max-width:768px) {
+    .logo a img {
+        max-width: 50%;
+    }
     .banner-info p {
         font-size: 3.3em;
     }
@@ -1840,6 +1883,9 @@ h2.resp-accordion {
 }
 
 @media (max-width:480px) {
+    .logo img {
+        max-width: 75%;
+    }
     .banner-phone {
         float: none;
         width: 100%;
