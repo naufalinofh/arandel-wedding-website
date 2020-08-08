@@ -53,7 +53,11 @@ $(document).ready(function() {
     const blurryImageLoad = new BlurryImageLoad();
     blurryImageLoad.load();
 
-    /* ---- Countdown timer ---- */
+    $(window).on("load", function() {
+            $('#home1').removeClass("background-header-low");
+            $('#home1').addClass("background-header");
+        })
+        /* ---- Countdown timer ---- */
 
     $('#counter').countdown({
         timestamp: new Date('2020-08-22T01:00:00')
