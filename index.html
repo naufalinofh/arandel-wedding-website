@@ -19,12 +19,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- js -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- //js -->
-<!-- animation-effect -->
-<link href="css/animate.min.css" rel="stylesheet"> 
-<!-- //animation-effect -->
-<!-- timer -->
-<link rel="stylesheet" href="css/jquery.countdown.css" />
-<!-- //timer -->
 <style>
 	@font-face {
   font-family: 'Bitter';
@@ -209,9 +203,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 	</div>
 <!-- //footer -->
-<!-- for bootstrap working -->
+<!-- animation-effect -->
+<link href="css/animate.min.css" rel="stylesheet"> 
+<!-- //animation-effect -->
+<!-- timer -->
+<link rel="stylesheet" href="css/jquery.countdown.css" />
+<!-- //timer -->
 <!-- start-smoth-scrolling -->
-<script type="text/javascript" async>
+<script type="text/javascript" defer="defer">
 	jQuery(document).ready(function($) {
 		$(".scroll").click(function(event){		
 			event.preventDefault();
@@ -221,10 +220,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </script>
 <!-- start-smoth-scrolling -->
 <script src="js/wow.min.js"></script>
-<script async>
+<script defer="defer">
  new WOW().init();
 </script>
-	<script src="js/bootstrap.js" async></script>
+	<script src="js/bootstrap.js" defer="defer"></script>
 <!-- //for bootstrap working -->
 </body>
 </html>
