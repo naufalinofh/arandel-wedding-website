@@ -584,6 +584,7 @@ ul.wmuSliderPagination {
 }
 .banner-wrap{
 	padding:0;
+	will-change: transform;
 }
 /*-- //wmuslider --*/
 /*-- progress-bars --*/
@@ -764,7 +765,8 @@ ul.wmuSliderPagination {
 }
 .services-grids-wedding-left{
 	float: left;
-    width:42%;
+	width:42%;
+	will-change: transform;
 }
 .services-grids-wedding-left img,.services-grids-wedding-right img{
     border: 3px solid var(--blue-color);
@@ -777,6 +779,7 @@ ul.wmuSliderPagination {
 .services-grids-wedding-right{
 	float:right;
 	width:42%;
+	will-change: transform;
 }
 .services-grids-wedding-right h4,.services-grids-wedding-left h4{
 	font-size:1em;
