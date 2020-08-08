@@ -768,7 +768,14 @@ ul.wmuSliderPagination {
 	width:42%;
 	will-change: transform;
 }
-
+.services-grids-wedding-left img,.services-grids-wedding-right img{
+    border: 3px solid var(--blue-color);
+    border-radius: 100%;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	-o-border-radius: 100%;
+	-ms-border-radius: 100%;
+}
 .services-grids-wedding-right{
 	float:right;
 	width:42%;
