@@ -197,7 +197,7 @@ ul.social-icons li {
 
 .icon-button i {
     background: none;
-    color: white;
+    color: #fff;
     height: 2.6rem;
     left: 0;
     line-height: 2.6rem;
@@ -226,11 +226,63 @@ ul.social-icons li {
     width: 0;
 }
 
-.twitter span,
-.facebook span,
 .instagram span,
 .youtube span {
     background-color: #fff;
+}
+
+.icon-button-countdown {
+    border-radius: 2.6rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 2.0rem;
+    height: 2.6rem;
+    line-height: 3.6rem;
+    margin: 0 2px;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 2.6rem;
+    border: 2px solid var(--blue-dark);
+}
+
+.icon-button-countdown i {
+    background: none;
+    color: #fff;
+    height: 2.6rem;
+    left: 0;
+    line-height: 2.6rem;
+    position: absolute;
+    top: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 2.6rem;
+    z-index: 10;
+}
+
+.icon-button-countdown span {
+    border-radius: 0;
+    display: block;
+    height: 0;
+    left: 50%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 0;
+}
+
+.instagram-countdown span,
+.youtube-countdown span {
+    background-color: var(--blue-dark);
 }
 
 .icon-button:hover span {
@@ -240,15 +292,6 @@ ul.social-icons li {
     margin: -1.3rem;
 }
 
-ul.social-icons li .icon-button .icon-facebook {
-    background: url(../images/img-sp.png) no-repeat 7px -54px;
-    display: block;
-}
-
-ul.social-icons li .icon-button .icon-facebook:hover {
-    background-position: 7px -85px;
-}
-
 ul.social-icons li .icon-button .icon-instagram {
     background: url(../images/img-sp.png) no-repeat -25px -54px;
     display: block;
@@ -256,15 +299,6 @@ ul.social-icons li .icon-button .icon-instagram {
 
 ul.social-icons li .icon-button .icon-instagram:hover {
     background-position: -25px -84px;
-}
-
-ul.social-icons li .icon-button .icon-twitter {
-    background: url(../images/img-sp.png) no-repeat -62px -53px;
-    display: block;
-}
-
-ul.social-icons li .icon-button .icon-twitter:hover {
-    background-position: -62px -83px;
 }
 
 ul.social-icons li .icon-button .icon-youtube {
