@@ -1969,30 +1969,6 @@ h2.resp-accordion {
         border-radius: 2rem;
         margin: -1rem;
     }
-    ul.social-icons li .icon-button .icon-facebook {
-        background: url(../images/img-sp.png) no-repeat 3px -58px;
-    }
-    ul.social-icons li .icon-button .icon-instagram {
-        background: url(../images/img-sp.png) no-repeat -30px -59px;
-    }
-    ul.social-icons li .icon-button .icon-twitter {
-        background: url(../images/img-sp.png) no-repeat -66px -58px;
-    }
-    ul.social-icons li .icon-button .icon-g-plus {
-        background: url(../images/img-sp.png) no-repeat -104px -58px;
-    }
-    ul.social-icons li .icon-button .icon-g-plus:hover {
-        background-position: -104px -91px;
-    }
-    ul.social-icons li .icon-button .icon-twitter:hover {
-        background-position: -66px -88px;
-    }
-    ul.social-icons li .icon-button .icon-instagram:hover {
-        background-position: -30px -89px;
-    }
-    ul.social-icons li .icon-button .icon-facebook:hover {
-        background-position: 3px -89px;
-    }
     .banner-social {
         margin: 2em 0 0;
     }
