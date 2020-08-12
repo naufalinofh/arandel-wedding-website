@@ -53,8 +53,13 @@ $(document).ready(function() {
     const blurryImageLoad = new BlurryImageLoad();
     blurryImageLoad.load();
 
-    /* ---- Countdown timer ---- */
+    /*--- change to hires bg image*/
+    window.onload = () => {
+        $(".background-header-low").addClass("background-header");
+        $(".background-header").removeClass("background-header-low");
+    };
 
+    /* ---- Countdown timer ---- */
     $('#counter').countdown({
         timestamp: new Date('2020-08-22T01:00:00')
     });

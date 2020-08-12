@@ -1350,15 +1350,6 @@ h2.resp-accordion {
 /*-- footer --*/
 
 .footer {
-    background: url(../images/background-header.jpg) no-repeat;
-    background-blend-mode: multiply;
-    background-color: rgba(0, 0, 0, .3);
-    background-size: cover;
-    background-position: center bottom;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
     min-height: 350px;
     padding: 3em 0;
     text-align: center;
