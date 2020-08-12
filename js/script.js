@@ -55,8 +55,10 @@ $(document).ready(function() {
 
     /*--- change to hires bg image*/
     window.onload = () => {
-        $(".background-header-low").addClass("background-header");
-        $(".background-header").removeClass("background-header-low");
+        $("#home1").removeClass("background-header-low");
+        $("#home1").addClass("background-header");
+        $("#footer1").removeClass("background-header-low");
+        $("#footer1").addClass("background-header");
     };
 
     /* ---- Countdown timer ---- */
