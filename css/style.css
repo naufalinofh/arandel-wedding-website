@@ -251,7 +251,7 @@ ul.social-icons li {
 
 .icon-button-countdown i {
     background: none;
-    color: #fff;
+    color: var(--blue-dark);
     height: 2.6rem;
     left: 0;
     line-height: 2.6rem;
@@ -285,29 +285,48 @@ ul.social-icons li {
     background-color: var(--blue-dark);
 }
 
-.icon-button:hover span {
+.icon-button:hover span,
+.icon-button-countdown:hover span {
     width: 2.6rem;
     height: 2.6rem;
     border-radius: 2.6rem;
     margin: -1.3rem;
 }
 
-ul.social-icons li .icon-button .icon-instagram {
-    background: url(../images/img-sp.png) no-repeat -25px -54px;
+.instagram .icon-instagram {
+    background: url(../images/icon-instagram.png) no-repeat 37% 50%;
     display: block;
 }
 
-ul.social-icons li .icon-button .icon-instagram:hover {
-    background-position: -25px -84px;
+.instagram .icon-instagram:hover {
+    background: url(../images/icon-instagram-color.png) no-repeat 37% 50%;
 }
 
-ul.social-icons li .icon-button .icon-youtube {
+.youtube .icon-youtube {
     background: url(../images/icon-youtube.png) no-repeat 37% 50%;
     display: block;
 }
 
-ul.social-icons li .icon-button .icon-youtube:hover {
-    background: url(../images/icon-youtube-hover.png) no-repeat 37% 50%;
+.youtube .icon-youtube:hover {
+    background: url(../images/icon-youtube-color.png) no-repeat 37% 50%;
+}
+
+.instagram-countdown .icon-instagram {
+    background: url(../images/icon-instagram-color.png) no-repeat 37% 50%;
+    display: block;
+}
+
+.instagram-countdown .icon-instagram:hover {
+    background: url(../images/icon-instagram.png) no-repeat 37% 50%;
+}
+
+.youtube-countdown .icon-youtube {
+    background: url(../images/icon-youtube-color.png) no-repeat 37% 50%;
+    display: block;
+}
+
+.youtube-countdown .icon-youtube:hover {
+    background: url(../images/icon-youtube.png) no-repeat 37% 50%;
 }
 
 
