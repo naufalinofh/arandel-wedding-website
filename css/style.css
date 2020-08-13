@@ -1,1 +1,1331 @@
-:root{--blue-color:#ACCEEC;--blue-dark:#4C316C}body,html{font-size:100%;background:#fff;font-family:Roboto,sans-serif}h1,h2,h3,h4,h5,h6{font-family:Bitter,serif;font-weight:700;margin:0}.name{text-transform:uppercase}h1 img{margin:auto;width:100%}label,ul{margin:0;padding:0}body a:hover{text-decoration:none}.blurry-load{filter:blur(8px)}@keyframes blurOut{0%{filter:blur(20px)}50%{filter:blur(10px)}100%{filter:blur(0)}}.blur-out{animation:blurOut .5s ease-out}.no-blur{animation-duration:2s;animation-fill-mode:forwards;animation-iteration-count:infinite;animation-name:shimmer;animation-timing-function:linear;background:#f6f7f8;background:gradient(linear,left top,right top,color-stop(8%,#eee),color-stop(18%,#ddd),color-stop(33%,#eee));background:linear-gradient(to right,#eee 8%,#ddd 18%,#eee 33%)}p{font-size:14px;line-height:1.8em}.btn-primary,.copyright p a,.nav-tabs>li>a{transition:.5s ease-in-out;-webkit-transition:.5s ease-in-out;-moz-transition:.5s ease-in-out;-o-transition:.5s ease-in-out;-ms-transition:.5s ease-in-out}.banner{height:auto;padding:2em 0 2em;text-align:center}.background-header{background:url(../images/background-header.jpg) no-repeat;background-size:cover;background-origin:padding-box;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;-ms-background-size:cover}.background-header-low{background:url(../images/background-header-low.jpg) no-repeat;background-size:cover;background-origin:padding-box;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;-ms-background-size:cover}ul.social-icons li{display:inline-block}.icon-button{border-radius:2.6rem;cursor:pointer;display:inline-block;font-size:2rem;height:2.6rem;line-height:3.6rem;margin:0 2px;position:relative;text-align:center;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:2.6rem;border:2px solid #fff}.icon-button i{background:0 0;color:#fff;height:2.6rem;left:0;line-height:2.6rem;position:absolute;top:0;-webkit-transition:all .3s;-moz-transition:all .3s;-o-transition:all .3s;transition:all .3s;width:2.6rem;z-index:10}.icon-button span{border-radius:0;display:block;height:0;left:50%;margin:0;position:absolute;top:50%;-webkit-transition:all .3s;-moz-transition:all .3s;-o-transition:all .3s;transition:all .3s;width:0}.instagram span,.youtube span{background-color:#fff}.icon-button-countdown{border-radius:2.6rem;cursor:pointer;display:inline-block;font-size:2rem;height:2.6rem;line-height:3.6rem;margin:0 2px;position:relative;text-align:center;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:2.6rem;border:2px solid var(--blue-dark)}.icon-button-countdown i{background:0 0;color:var(--blue-dark);height:2.6rem;left:0;line-height:2.6rem;position:absolute;top:0;-webkit-transition:all .3s;-moz-transition:all .3s;-o-transition:all .3s;transition:all .3s;width:2.6rem;z-index:10}.icon-button-countdown span{border-radius:0;display:block;height:0;left:50%;margin:0;position:absolute;top:50%;-webkit-transition:all .3s;-moz-transition:all .3s;-o-transition:all .3s;transition:all .3s;width:0}.instagram-countdown span,.youtube-countdown span{background-color:var(--blue-dark)}.icon-button-countdown:hover span,.icon-button:hover span{width:2.6rem;height:2.6rem;border-radius:2.6rem;margin:-1.3rem}.instagram .icon-instagram{background:url(../images/icon-instagram.png) no-repeat 37% 50%;display:block}.instagram .icon-instagram:hover{background:url(../images/icon-instagram-color.png) no-repeat 37% 50%}.youtube .icon-youtube{background:url(../images/icon-youtube.png) no-repeat 37% 50%;display:block}.youtube .icon-youtube:hover{background:url(../images/icon-youtube-color.png) no-repeat 37% 50%}.instagram-countdown .icon-instagram{background:url(../images/icon-instagram-color.png) no-repeat 37% 50%;display:block}.instagram-countdown .icon-instagram:hover{background:url(../images/icon-instagram.png) no-repeat 37% 50%}.youtube-countdown .icon-youtube{background:url(../images/icon-youtube-color.png) no-repeat 37% 50%;display:block}.youtube-countdown .icon-youtube:hover{background:url(../images/icon-youtube.png) no-repeat 37% 50%}.banner-info{margin:3em auto;width:100%;height:auto;text-align:center;background:rgba(33,33,33,.57);color:#fff}.banner-bottom,.contact,.gallery,.services,.testimonials{padding:5em 0}.banner-bottom h3,.contact h3,.gallery h3,.services h3{text-align:center;font-size:3em;color:#212121;position:relative;padding-bottom:.5em}.banner-bottom h3:after,.banner-bottom h3:before,.contact h3:after,.contact h3:before,.gallery h3:after,.gallery h3:before,.services h3:after,.services h3:before{content:'';background:var(--blue-color);height:1px;position:absolute;bottom:5.5%;width:10%}.banner-bottom h3:before,.contact h3:before,.services h3:before{left:39%}.banner-bottom h3:after,.contact h3:after,.gallery h3:after,.services h3:after{right:39.5%}.banner-bottom h3 span:after,.banner-bottom h3 span:before,.contact h3 span:after,.contact h3 span:before,.gallery h3 span:after,.gallery h3 span:before,.services h3 span:after,.services h3 span:before{content:'';height:10px;position:absolute;bottom:0;width:10px;border:1px solid var(--blue-color);transform:rotate(45deg)}.banner-bottom h3 span:before,.contact h3 span:before,.services h3 span:before{left:49%}.banner-bottom h3 span:after,.contact h3 span:after,.gallery h3 span:after,.services h3 span:after{right:49.5%}.testimonials h3,.testimonials-grid-right h3{font-size:2.5em;color:#212121;margin:0;text-align:center;position:relative;padding-bottom:.5em}.testimonials h3:after,.testimonials h3:before,.testimonials-grid-right h3:after,.testimonials-grid-right h3:before{content:'';background:var(--blue-color);width:20%;height:1px;position:absolute;bottom:6%}.testimonials h3:after,.testimonials-grid-right h3:after{right:28.2%}.testimonials h3:before,.testimonials-grid-right h3:before{left:28%}.testimonials h3 span:after,.testimonials h3 span:before,.testimonials-grid-right h3 span:after,.testimonials-grid-right h3 span:before{content:'';border:1px solid var(--blue-color);width:10px;height:10px;position:absolute;bottom:0;transform:rotate(45deg);-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-o-transform:rotate(45deg);-ms-transform:rotate(45deg)}.testimonials h3 span:after,.testimonials-grid-right h3 span:after{right:48.7%}.testimonials h3 span:before,.testimonials-grid-right h3 span:before{left:48%}.testimonials-grid-left-grid-left{float:left;width:20%}.testimonials-grid-left-grid-right{float:right;width:75%}.testimonials-grid-left-grid-right h4{font-size:1em;color:#212121;line-height:1.8em;text-transform:capitalize;letter-spacing:1px}.testimonials-grid-left-grid-right h4 i{display:block;color:var(--blue-dark)}.testimonials-grid-left-grid:nth-child(2){margin:2em 0 0}.banner-wrap{padding:0;will-change:transform}.btn{white-space:inherit}.services-grids-wedding{text-align:center}.services-grids-wedding1{width:25%;margin:0 auto}.services-grids-wedding-left{float:left;width:42%;will-change:transform}.services-grids-wedding-right{float:right;width:42%;will-change:transform}.services-grids-wedding-left h4,.services-grids-wedding-right h4{font-size:1em;color:var(--blue-dark);margin:1em 0}.services-grids-wedding h5{margin:1em 0 .5em;font-size:1.5em;color:#212121}.services-grids-wedding p{font-size:14px;color:#999;margin:0}#counter{height:125px;font-size:40px;color:#212121;overflow:hidden}.countDays,.countHours,.countMinutes{border-right:1px solid #e3e3e3}.countDays,.countHours,.countMinutes,.countSeconds{display:inline-block;padding:.5em 0}.points{float:left;width:40px;margin:0;font-size:44px;font-weight:700;text-align:center;line-height:138px;text-shadow:none;color:#999;display:none}.boxName{float:left;width:100%;font-size:14px;color:#999;font-weight:500;clear:both;padding:0;font-family:'Open Sans',sans-serif}.services-bottom{background:url(../images/ring.jpg) no-repeat center;background-size:cover;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;-ms-background-size:cover;min-height:400px;padding:7em 0 0;width:100%;text-align:center}.services-bottom h2{color:#fff;line-height:1.8em;position:relative;width:80%;margin:0 auto;font-size:1.5em;font-weight:400;font-style:italic}.services-bottom h2:before{content:'';background:url(../images/img-sp.png) no-repeat -52px -150px;display:block;width:32px;height:32px;position:absolute;top:0;left:-8%}.services-bottom h2:after{content:'';background:url(../images/img-sp.png) no-repeat -5px -150px;display:block;width:32px;height:32px;position:absolute;bottom:0;right:-10%}.services-bottom p i{text-align:right;color:var(--blue-color);margin:1em 0 0;font-size:1.2em}.mail-grids{margin:3em 0 0;text-align:center}.get-in h4{font-size:1.3em;color:#000;margin:1em 0}.get-in p{margin-top:1em;text-align:left;padding:0 1em}.footer{min-height:350px;padding:3em 0;text-align:center}.footer-pos{margin-bottom:.5em}.footer-pos img{margin:0 auto}.footer-logo a{font-size:3em;color:#fff;text-decoration:none}.footer-logo a img{max-width:30%;width:100%}.footer-logo p{font-size:14px;margin:1.5em auto;padding-bottom:.5em;border-bottom:1px solid;color:#fff;text-transform:uppercase;width:20%}.copyright p{font-size:14px;color:#fff;line-height:1.8em;margin:2em 0 0}@media (max-width:1080px){.logo{margin-left:14em}.banner-info{width:95%}.banner-info p{font-size:4.5em}.banner-bottom,.contact,.gallery,.services,.testimonials{padding:4em 0}.banner-bottom h3:before,.contact h3:before,.services h3:before{left:38.5%}.banner-bottom h3 span:before,.contact h3 span:before,.services h3 span:before{left:48.7%}.testimonials-grid-left-grid-right h4 i{margin:1em 0 0}.testimonials h3 span:before,.testimonials-grid-right h3 span:before{left:47.4%}.testimonials h3:before,.testimonials-grid-right h3:before{left:27%}.services-grid{padding-left:0}.services-grid1{width:45%}.btn-lg{font-size:1.4em}.services-bottom h2{font-size:1.7em;width:85%}.services-bottom{min-height:330px;padding:5em 0 0}.services-bottom p{font-size:1.2em}}@media (max-width:1024px){.banner-wrap{padding:0 0 2em}}@media (max-width:991px){.logo h1 a{font-size:1.7em}.logo{margin:2em 6em}.banner-info{width:100%}.banner-bottom,.contact,.gallery,.services,.testimonials{padding:3em 0}.banner-bottom h3,.contact h3,.gallery h3,.services h3{font-size:2.5em}.banner-bottom h3:after,.banner-bottom h3:before,.contact h3:after,.contact h3:before,.services h3:after,.services h3:before{width:20%;bottom:6.5%}.banner-bottom h3:after,.contact h3:after,.services h3:after{right:29.5%}.banner-bottom h3 span:before,.contact h3 span:before,.services h3 span:before{left:48%}.banner-bottom h3:before,.contact h3:before,.services h3:before{left:27.8%}.testimonials h3:after,.testimonials h3:before,.testimonials-grid-right h3:after,.testimonials-grid-right h3:before{bottom:7%}.testimonials h3:before,.testimonials-grid-right h3:before{left:28.6%}.testimonials h3 span:before,.testimonials-grid-right h3 span:before{left:48.8%}.testimonials-grid-right{margin:3em 0 0}.services-grid{float:left;width:50%;padding:0 1em}.services-grid:nth-child(2){margin:0 0 2em}.services-grid1{width:40%;padding:2em}.services-grids-wedding1{width:40%}.services-bottom{padding:3.5em 0 0}.mail-grid-right{margin:2em 0 0}.get-in:nth-child(2){margin:4em 0 0}.mail-grid-left input[type=submit]{margin-left:30.1em}.footer{min-height:340px;padding:2em 0}}@media (max-width:800px){.banner-info{margin:auto}}@media (max-width:768px){.logo a img{max-width:50%}.testimonials-grid-left-grid-left{width:15%}.testimonials-grid-left-grid-right{width:80%;margin:1em 0 0}.testimonials h3:after,.testimonials-grid-right h3:after{right:28.5%}.services-bottom h2:after{right:13%}.services-bottom h2{font-size:1.3em}.services-bottom p{font-size:1em}.services-bottom{padding:3em 0 0;min-height:300px}.footer-logo a img{max-width:50%}}@media (max-width:667px){.logo h1 a{font-size:1.4em}.logo{margin:2em 4em}.banner-info p{font-size:3em}.banner-info{margin:auto}.navbar-toggle{margin:0 0 0 18em}.mail-grid-left input[type=submit]{margin-left:25.8em}}@media (max-width:640px){.banner-bottom h3 span:before,.contact h3 span:before,.services h3 span:before{left:47.5%}.banner-bottom h3:before,.contact h3:before,.services h3:before{left:27.3%}.testimonials h3 span:before,.testimonials-grid-right h3 span:before{left:48.3%}.testimonials h3:before,.testimonials-grid-right h3:before{left:27.9%}.services-bottom h2{font-size:1.1em}.services-bottom{min-height:280px}.services-grids-wedding1{width:48%}}@media (max-width:600px){.banner{background-position:-85px 0}.banner-info p{font-size:2.5em}.logo h1 a{font-size:1.2em}.logo{margin:2em 3em}}@media (max-width:568px){.banner{min-height:400px}.logo h1 a span{height:28px;background-size:600%}.logo{margin:2em 2em}}@media (max-width:480px){.banner{padding:0}.logo img{max-width:75%}.banner{padding:0}.icon-button{border-radius:2rem;height:2rem;width:2rem;line-height:2rem}.icon-button i{height:2rem;line-height:2rem;width:2rem}.icon-button:hover span{width:2rem;height:2rem;border-radius:2rem;margin:-1rem}.banner-social{margin:2em 0 0}.banner-info p{font-size:2em}.banner-info{margin:auto}.banner-bottom h3,.contact h3,.gallery h3,.services h3,.testimonials h3,.testimonials-grid-right h3{font-size:2em}.banner-bottom,.contact,.gallery,.services,.testimonials{padding:2em 0}.banner-bottom h3 span:after,.contact h3 span:after,.gallery h3 span:after,.services h3 span:after{right:48.5%}.banner-bottom h3:after,.contact h3:after,.gallery h3:after,.services h3:after{right:28.5%}.banner-bottom h3:after,.banner-bottom h3:before,.contact h3:after,.contact h3:before,.services h3:after,.services h3:before{bottom:7.5%}.banner-bottom-grids{margin:2em 0 0}.testimonials h3 span:before,.testimonials-grid-right h3 span:before{left:47.3%}.testimonials h3:after,.testimonials h3:before,.testimonials-grid-right h3:after,.testimonials-grid-right h3:before{bottom:8%}.testimonials h3:before,.testimonials-grid-right h3:before{left:27%}.testimonials-grid-left-grid-right{margin:0}.bar_group.group_ident-1{width:90%}.services-grid1{padding:1em}.btn-lg{font-size:1.2em}.services-grids-wedding1{width:60%}.services-bottom h2{font-size:1em}.services-bottom h2:after{right:-3%}.services-bottom{padding:2em 0 0;min-height:220px}.services-bottom p{font-size:.9em}.logo{margin:2em 0}.mail-grids{margin:2em 0 0}.mail-grid-left textarea{min-height:150px}.footer-logo a{font-size:2em}.footer-logo a img{max-width:75%}.footer-logo p{width:45%}.footer{min-height:290px}.copyright p{margin:1em 0 0}}@media (max-width:414px){.banner{min-height:365px}.banner-info p{font-size:1.9em}.logo h1 a{font-size:1em;line-height:0}.banner{min-height:365px}.banner-bottom h3,.contact h3,.gallery h3,.services h3,.testimonials h3,.testimonials-grid-right h3{font-size:1.7em}.banner-bottom h3 span:after,.contact h3 span:after,.gallery h3 span:after,.services h3 span:after{right:48%}.banner-bottom h3:after,.contact h3:after,.gallery h3:after,.services h3:after{right:27.5%}.testimonials-grid-left{padding:0}.testimonials h3 span:after,.testimonials-grid-right h3 span:after{right:47.9%}.testimonials h3:after,.testimonials h3:before,.testimonials-grid-right h3:after,.testimonials-grid-right h3:before{bottom:9%}.testimonials h3:after,.testimonials-grid-right h3:after{right:27.5%}.testimonials-grid-left-grid-left{width:25%}.testimonials-grid-left-grid-right{width:70%}.services-grid{float:none;width:80%;margin:0 auto}.services-grids-wedding1{width:70%}.services-bottom{min-height:250px}.mail-grid-left,.mail-grid-right{padding:0}.date-tag-left,.date-tag-right{float:none;text-align:center}.date-tag-right{margin:1em 0 0}.get-in:nth-child(2){margin:2em 0 0}.footer{min-height:310px}.services-grid1{padding:1.5em}}@media (max-width:384px){.banner-info p{font-size:1.7em}.mail-grid-left input[type=submit]{margin-left:0;font-size:14px;width:100%}.footer-logo p{width:50%}}@media (max-width:375px){.banner-bottom h3 span:after,.contact h3 span:after,.gallery h3 span:after,.services h3 span:after{right:47.3%}.banner-bottom h3:after,.contact h3:after,.gallery h3:after,.services h3:after{right:27%}.testimonials h3 span:before,.testimonials-grid-right h3 span:before{left:46.5%}.testimonials h3:before,.testimonials-grid-right h3:before{left:26%}.services-bottom h2{width:100%}.services-bottom h2:after{right:-2%}.banner-bottom h3:after,.banner-bottom h3:before,.contact h3:after,.contact h3:before,.gallery h3:after,.gallery h3:before,.services h3:after,.services h3:before{bottom:9.5%}}@media (max-width:320px){.logo h1 a{font-size:.9em}.icon-button{margin:0}.logo h1{line-height:.4}.blog-grid-right{margin:0}.b_label,.b_tooltip span,.banner-dummy p,.banner-phone p,.bar_label_max,.bar_label_min,.footer-logo p,.get-in ul li,.mail-grid-left textarea,.navbar-nav>li>a,.services-grid p,.services-grids-wedding p,p.testimonials-dummy{font-size:13px}.copyright p{font-size:13px;margin:1.5em 0 0}.footer{min-height:300px}.footer-logo a{font-size:1.7em}.get-in h4{font-size:1.1em}.btn-primary1{font-size:1.1em!important}.services-bottom h2{font-size:.9em}.services-bottom{min-height:220px}.services-bottom p{font-size:.85em}.services-grids-wedding h5{font-size:1.3em}.services-grids-wedding1{width:85%}.btn-lg{font-size:1.1em}.banner-info p{font-size:1.4em}.banner-info{margin:auto}.banner{min-height:315px}.banner-bottom h3:after,.banner-bottom h3:before,.contact h3:after,.contact h3:before,.gallery h3:after,.gallery h3:before,.services h3:after,.services h3:before{width:35%}.banner-bottom h3 span:after,.contact h3 span:after,.gallery h3 span:after,.services h3 span:after{right:46.3%}.banner-bottom h3:after,.contact h3:after,.gallery h3:after,.services h3:after{right:11%}.banner-bottom h3:before,.contact h3:before,.services h3:before{left:12.3%}p.about-dummy{margin:1.5em auto 0;font-size:13px}.testimonials h3:after,.testimonials h3:before,.testimonials-grid-right h3:after,.testimonials-grid-right h3:before{width:35%}.testimonials h3 span:before,.testimonials-grid-right h3 span:before{left:45.8%}.testimonials h3:after,.testimonials-grid-right h3:after{right:12.5%}.testimonials h3:before,.testimonials-grid-right h3:before{left:10.5%}.navbar-toggle{margin:0 0 0 7.3em}.testimonials-grid-left-grid-right h4 i{margin:0}.services-grids{margin:2em 0}}
+:root {
+    --blue-color: #ACCEEC;
+    --blue-dark: #4C316C
+}
+
+body,
+html {
+    font-size: 100%;
+    background: #fff;
+    font-family: Roboto, sans-serif
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Bitter, serif;
+    font-weight: 700;
+    margin: 0
+}
+
+.name {
+    text-transform: uppercase
+}
+
+h1 img {
+    margin: auto;
+    width: 100%
+}
+
+label,
+ul {
+    margin: 0;
+    padding: 0
+}
+
+body a:hover {
+    text-decoration: none
+}
+
+.blurry-load {
+    filter: blur(8px)
+}
+
+@keyframes blurOut {
+    0% {
+        filter: blur(20px)
+    }
+    50% {
+        filter: blur(10px)
+    }
+    100% {
+        filter: blur(0)
+    }
+}
+
+.blur-out {
+    animation: blurOut .5s ease-out
+}
+
+.no-blur {
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: shimmer;
+    animation-timing-function: linear;
+    background: #f6f7f8;
+    background: gradient(linear, left top, right top, color-stop(8%, #eee), color-stop(18%, #ddd), color-stop(33%, #eee));
+    background: linear-gradient(to right, #eee 8%, #ddd 18%, #eee 33%)
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.8em
+}
+
+.btn-primary,
+.copyright p a {
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out
+}
+
+.banner {
+    height: auto;
+    padding: 2em 0 2em;
+    text-align: center
+}
+
+.background-header {
+    background: url(../images/background-header.jpg) no-repeat;
+    background-size: cover;
+    background-origin: padding-box;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover
+}
+
+.background-header-low {
+    background: url(../images/background-header-low.jpg) no-repeat;
+    background-size: cover;
+    background-origin: padding-box;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover
+}
+
+ul.social-icons li {
+    display: inline-block
+}
+
+.icon-button {
+    border-radius: 2.6rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 2rem;
+    height: 2.6rem;
+    line-height: 3.6rem;
+    margin: 0 2px;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 2.6rem;
+    border: 2px solid #fff
+}
+
+.icon-button i {
+    background: 0 0;
+    color: #fff;
+    height: 2.6rem;
+    left: 0;
+    line-height: 2.6rem;
+    position: absolute;
+    top: 0;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    width: 2.6rem;
+    z-index: 10
+}
+
+.icon-button span {
+    border-radius: 0;
+    display: block;
+    height: 0;
+    left: 50%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    width: 0
+}
+
+.instagram span,
+.youtube span {
+    background-color: #fff
+}
+
+.icon-button-countdown {
+    border-radius: 2.6rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 2rem;
+    height: 2.6rem;
+    line-height: 3.6rem;
+    margin: 0 2px;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 2.6rem;
+    border: 2px solid var(--blue-dark)
+}
+
+.icon-button-countdown i {
+    background: 0 0;
+    color: var(--blue-dark);
+    height: 2.6rem;
+    left: 0;
+    line-height: 2.6rem;
+    position: absolute;
+    top: 0;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    width: 2.6rem;
+    z-index: 10
+}
+
+.icon-button-countdown span {
+    border-radius: 0;
+    display: block;
+    height: 0;
+    left: 50%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    width: 0
+}
+
+.instagram-countdown span,
+.youtube-countdown span {
+    background-color: var(--blue-dark)
+}
+
+.icon-button-countdown:hover span,
+.icon-button:hover span {
+    width: 2.6rem;
+    height: 2.6rem;
+    border-radius: 2.6rem;
+    margin: -1.3rem
+}
+
+.instagram .icon-instagram {
+    background: url(../images/icon-instagram.png) no-repeat 37% 50%;
+    display: block
+}
+
+.instagram .icon-instagram:hover {
+    background: url(../images/icon-instagram-color.png) no-repeat 37% 50%
+}
+
+.youtube .icon-youtube {
+    background: url(../images/icon-youtube.png) no-repeat 37% 50%;
+    display: block
+}
+
+.youtube .icon-youtube:hover {
+    background: url(../images/icon-youtube-color.png) no-repeat 37% 50%
+}
+
+.instagram-countdown .icon-instagram {
+    background: url(../images/icon-instagram-color.png) no-repeat 37% 50%;
+    display: block
+}
+
+.instagram-countdown .icon-instagram:hover {
+    background: url(../images/icon-instagram.png) no-repeat 37% 50%
+}
+
+.youtube-countdown .icon-youtube {
+    background: url(../images/icon-youtube-color.png) no-repeat 37% 50%;
+    display: block
+}
+
+.youtube-countdown .icon-youtube:hover {
+    background: url(../images/icon-youtube.png) no-repeat 37% 50%
+}
+
+.banner-info {
+    margin: 3em auto;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.banner-info h3,
+.banner-info h2 {
+    font-family: Frozito, serif;
+    color: #fff;
+}
+
+.banner-bottom,
+.contact,
+.gallery,
+.services,
+.testimonials {
+    padding: 5em 0
+}
+
+.banner-bottom h3,
+.contact h3,
+.gallery h3,
+.services h3 {
+    text-align: center;
+    font-size: 3em;
+    color: #212121;
+    position: relative;
+    padding-bottom: .5em
+}
+
+.banner-bottom h3:after,
+.banner-bottom h3:before,
+.contact h3:after,
+.contact h3:before,
+.gallery h3:after,
+.gallery h3:before,
+.services h3:after,
+.services h3:before {
+    content: '';
+    background: var(--blue-color);
+    height: 1px;
+    position: absolute;
+    bottom: 5.5%;
+    width: 10%
+}
+
+.banner-bottom h3:before,
+.contact h3:before,
+.services h3:before {
+    left: 39%
+}
+
+.banner-bottom h3:after,
+.contact h3:after,
+.gallery h3:after,
+.services h3:after {
+    right: 39.5%
+}
+
+.banner-bottom h3 span:after,
+.banner-bottom h3 span:before,
+.contact h3 span:after,
+.contact h3 span:before,
+.gallery h3 span:after,
+.gallery h3 span:before,
+.services h3 span:after,
+.services h3 span:before {
+    content: '';
+    height: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 10px;
+    border: 1px solid var(--blue-color);
+    transform: rotate(45deg)
+}
+
+.banner-bottom h3 span:before,
+.contact h3 span:before,
+.services h3 span:before {
+    left: 49%
+}
+
+.banner-bottom h3 span:after,
+.contact h3 span:after,
+.gallery h3 span:after,
+.services h3 span:after {
+    right: 49.5%
+}
+
+.testimonials h3,
+.testimonials-grid-right h3 {
+    font-size: 2.5em;
+    color: #212121;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    padding-bottom: .5em
+}
+
+.testimonials h3:after,
+.testimonials h3:before,
+.testimonials-grid-right h3:after,
+.testimonials-grid-right h3:before {
+    content: '';
+    background: var(--blue-color);
+    width: 20%;
+    height: 1px;
+    position: absolute;
+    bottom: 6%
+}
+
+.testimonials h3:after,
+.testimonials-grid-right h3:after {
+    right: 28.2%
+}
+
+.testimonials h3:before,
+.testimonials-grid-right h3:before {
+    left: 28%
+}
+
+.testimonials h3 span:after,
+.testimonials h3 span:before,
+.testimonials-grid-right h3 span:after,
+.testimonials-grid-right h3 span:before {
+    content: '';
+    border: 1px solid var(--blue-color);
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    bottom: 0;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg)
+}
+
+.testimonials h3 span:after,
+.testimonials-grid-right h3 span:after {
+    right: 48.7%
+}
+
+.testimonials h3 span:before,
+.testimonials-grid-right h3 span:before {
+    left: 48%
+}
+
+.testimonials-grid-left-grid-left {
+    float: left;
+    width: 20%
+}
+
+.testimonials-grid-left-grid-right {
+    float: right;
+    width: 75%
+}
+
+.testimonials-grid-left-grid-right h4 {
+    font-size: 1em;
+    color: #212121;
+    line-height: 1.8em;
+    text-transform: capitalize;
+    letter-spacing: 1px
+}
+
+.testimonials-grid-left-grid-right h4 i {
+    display: block;
+    color: var(--blue-dark)
+}
+
+.testimonials-grid-left-grid:nth-child(2) {
+    margin: 2em 0 0
+}
+
+.banner-wrap {
+    padding: 0;
+    will-change: transform
+}
+
+.btn {
+    white-space: inherit
+}
+
+.services-grids-wedding {
+    text-align: center
+}
+
+.services-grids-wedding1 {
+    width: 25%;
+    margin: 0 auto
+}
+
+.services-grids-wedding-left {
+    float: left;
+    width: 42%;
+    will-change: transform
+}
+
+.services-grids-wedding-right {
+    float: right;
+    width: 42%;
+    will-change: transform
+}
+
+.services-grids-wedding-left h4,
+.services-grids-wedding-right h4 {
+    font-size: 1em;
+    color: var(--blue-dark);
+    margin: 1em 0
+}
+
+.services-grids-wedding h5 {
+    margin: 1em 0 .5em;
+    font-size: 1.5em;
+    color: #212121
+}
+
+.services-grids-wedding p {
+    font-size: 14px;
+    color: #999;
+    margin: 0
+}
+
+#counter {
+    height: 125px;
+    font-size: 40px;
+    color: #212121;
+    overflow: hidden
+}
+
+.countDays,
+.countHours,
+.countMinutes {
+    border-right: 1px solid #e3e3e3
+}
+
+.countDays,
+.countHours,
+.countMinutes,
+.countSeconds {
+    display: inline-block;
+    padding: .5em 0
+}
+
+.points {
+    float: left;
+    width: 40px;
+    margin: 0;
+    font-size: 44px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 138px;
+    text-shadow: none;
+    color: #999;
+    display: none
+}
+
+.boxName {
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    color: #999;
+    font-weight: 500;
+    clear: both;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif
+}
+
+.services-bottom {
+    background: url(../images/ring.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 400px;
+    padding: 7em 0 0;
+    width: 100%;
+    text-align: center
+}
+
+.services-bottom h2 {
+    color: #fff;
+    line-height: 1.8em;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.5em;
+    font-weight: 400;
+    font-style: italic
+}
+
+.services-bottom h2:before {
+    content: '';
+    background: url(../images/img-sp.png) no-repeat -52px -150px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 0;
+    left: -8%
+}
+
+.services-bottom h2:after {
+    content: '';
+    background: url(../images/img-sp.png) no-repeat -5px -150px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    bottom: 0;
+    right: -10%
+}
+
+.services-bottom p i {
+    text-align: right;
+    color: var(--blue-color);
+    margin: 1em 0 0;
+    font-size: 1.2em
+}
+
+.mail-grids {
+    margin: 3em 0 0;
+    text-align: center
+}
+
+.get-in h4 {
+    font-size: 1.3em;
+    color: #000;
+    margin: 1em 0
+}
+
+.get-in p {
+    margin-top: 1em;
+    text-align: left;
+    padding: 0 1em
+}
+
+.footer {
+    min-height: 350px;
+    padding: 3em 0;
+    text-align: center
+}
+
+.footer-pos {
+    margin-bottom: .5em
+}
+
+.footer-pos img {
+    margin: 0 auto
+}
+
+.footer-logo a {
+    font-size: 3em;
+    color: #fff;
+    text-decoration: none
+}
+
+.footer-logo a img {
+    max-width: 30%;
+    width: 100%
+}
+
+.footer-logo p {
+    font-size: 14px;
+    margin: 1.5em auto;
+    padding-bottom: .5em;
+    border-bottom: 1px solid;
+    color: #fff;
+    text-transform: uppercase;
+    width: 20%
+}
+
+.copyright p {
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.8em;
+    margin: 2em 0 0
+}
+
+@media (max-width:1080px) {
+    .logo {
+        margin-left: 14em
+    }
+    .banner-info {
+        width: 95%
+    }
+    .banner-bottom,
+    .contact,
+    .gallery,
+    .services,
+    .testimonials {
+        padding: 4em 0
+    }
+    .banner-bottom h3:before,
+    .contact h3:before,
+    .services h3:before {
+        left: 38.5%
+    }
+    .banner-bottom h3 span:before,
+    .contact h3 span:before,
+    .services h3 span:before {
+        left: 48.7%
+    }
+    .testimonials-grid-left-grid-right h4 i {
+        margin: 1em 0 0
+    }
+    .testimonials h3 span:before,
+    .testimonials-grid-right h3 span:before {
+        left: 47.4%
+    }
+    .testimonials h3:before,
+    .testimonials-grid-right h3:before {
+        left: 27%
+    }
+    .services-grid {
+        padding-left: 0
+    }
+    .services-grid1 {
+        width: 45%
+    }
+    .btn-lg {
+        font-size: 1.4em
+    }
+    .services-bottom h2 {
+        font-size: 1.7em;
+        width: 85%
+    }
+    .services-bottom {
+        min-height: 330px;
+        padding: 5em 0 0
+    }
+    .services-bottom p {
+        font-size: 1.2em
+    }
+}
+
+@media (max-width:1024px) {
+    .banner-wrap {
+        padding: 0 0 2em
+    }
+}
+
+@media (max-width:991px) {
+    .logo h1 a {
+        font-size: 1.7em
+    }
+    .logo {
+        margin: 2em 6em
+    }
+    .banner-info {
+        width: 100%
+    }
+    .banner-bottom,
+    .contact,
+    .gallery,
+    .services,
+    .testimonials {
+        padding: 3em 0
+    }
+    .banner-bottom h3,
+    .contact h3,
+    .gallery h3,
+    .services h3 {
+        font-size: 2.5em
+    }
+    .banner-bottom h3:after,
+    .banner-bottom h3:before,
+    .contact h3:after,
+    .contact h3:before,
+    .services h3:after,
+    .services h3:before {
+        width: 20%;
+        bottom: 6.5%
+    }
+    .banner-bottom h3:after,
+    .contact h3:after,
+    .services h3:after {
+        right: 29.5%
+    }
+    .banner-bottom h3 span:before,
+    .contact h3 span:before,
+    .services h3 span:before {
+        left: 48%
+    }
+    .banner-bottom h3:before,
+    .contact h3:before,
+    .services h3:before {
+        left: 27.8%
+    }
+    .testimonials h3:after,
+    .testimonials h3:before,
+    .testimonials-grid-right h3:after,
+    .testimonials-grid-right h3:before {
+        bottom: 7%
+    }
+    .testimonials h3:before,
+    .testimonials-grid-right h3:before {
+        left: 28.6%
+    }
+    .testimonials h3 span:before,
+    .testimonials-grid-right h3 span:before {
+        left: 48.8%
+    }
+    .testimonials-grid-right {
+        margin: 3em 0 0
+    }
+    .services-grid {
+        float: left;
+        width: 50%;
+        padding: 0 1em
+    }
+    .services-grid:nth-child(2) {
+        margin: 0 0 2em
+    }
+    .services-grid1 {
+        width: 40%;
+        padding: 2em
+    }
+    .services-grids-wedding1 {
+        width: 40%
+    }
+    .services-bottom {
+        padding: 3.5em 0 0
+    }
+    .mail-grid-right {
+        margin: 2em 0 0
+    }
+    .get-in:nth-child(2) {
+        margin: 4em 0 0
+    }
+    .mail-grid-left input[type=submit] {
+        margin-left: 30.1em
+    }
+    .footer {
+        min-height: 340px;
+        padding: 2em 0
+    }
+}
+
+@media (max-width:800px) {
+    .banner-info {
+        margin: auto
+    }
+}
+
+@media (max-width:768px) {
+    .logo a img {
+        max-width: 50%
+    }
+    .testimonials-grid-left-grid-left {
+        width: 15%
+    }
+    .testimonials-grid-left-grid-right {
+        width: 80%;
+        margin: 1em 0 0
+    }
+    .testimonials h3:after,
+    .testimonials-grid-right h3:after {
+        right: 28.5%
+    }
+    .services-bottom h2:after {
+        right: 13%
+    }
+    .services-bottom h2 {
+        font-size: 1.3em
+    }
+    .services-bottom p {
+        font-size: 1em
+    }
+    .services-bottom {
+        padding: 3em 0 0;
+        min-height: 300px
+    }
+    .footer-logo a img {
+        max-width: 50%
+    }
+}
+
+@media (max-width:667px) {
+    .logo h1 a {
+        font-size: 1.4em
+    }
+    .logo {
+        margin: 2em 4em
+    }
+    .banner-info p {
+        font-size: 3em
+    }
+    .banner-info {
+        margin: auto
+    }
+    .navbar-toggle {
+        margin: 0 0 0 18em
+    }
+    .mail-grid-left input[type=submit] {
+        margin-left: 25.8em
+    }
+}
+
+@media (max-width:640px) {
+    .banner-bottom h3 span:before,
+    .contact h3 span:before,
+    .services h3 span:before {
+        left: 47.5%
+    }
+    .banner-bottom h3:before,
+    .contact h3:before,
+    .services h3:before {
+        left: 27.3%
+    }
+    .testimonials h3 span:before,
+    .testimonials-grid-right h3 span:before {
+        left: 48.3%
+    }
+    .testimonials h3:before,
+    .testimonials-grid-right h3:before {
+        left: 27.9%
+    }
+    .services-bottom h2 {
+        font-size: 1.1em
+    }
+    .services-bottom {
+        min-height: 280px
+    }
+    .services-grids-wedding1 {
+        width: 48%
+    }
+}
+
+@media (max-width:600px) {
+    .banner {
+        background-position: -10px 0
+    }
+    .banner-info {
+        margin: 1em auto;
+    }
+    .banner-info h2 {
+        font-size: 1.6em
+    }
+    .banner-info h3 {
+        font-size: 1.3em
+    }
+    .logo h1 a {
+        font-size: 1.2em
+    }
+    .logo {
+        margin: 2em 3em
+    }
+}
+
+@media (max-width:568px) {
+    .banner {
+        min-height: 350px
+    }
+    .logo h1 a span {
+        height: 28px;
+        background-size: 600%
+    }
+    .logo {
+        margin: 2em 2em
+    }
+}
+
+@media (max-width:480px) {
+    .banner {
+        padding: 0
+    }
+    .logo img {
+        max-width: 75%
+    }
+    .icon-button {
+        border-radius: 2rem;
+        height: 2rem;
+        width: 2rem;
+        line-height: 2rem
+    }
+    .icon-button i {
+        height: 2rem;
+        line-height: 2rem;
+        width: 2rem
+    }
+    .icon-button:hover span {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 2rem;
+        margin: -1rem
+    }
+    .banner-social {
+        margin: 2em 0 0
+    }
+    .banner-bottom h3,
+    .contact h3,
+    .gallery h3,
+    .services h3,
+    .testimonials h3,
+    .testimonials-grid-right h3 {
+        font-size: 2em
+    }
+    .banner-bottom,
+    .contact,
+    .gallery,
+    .services,
+    .testimonials {
+        padding: 2em 0
+    }
+    .banner-bottom h3 span:after,
+    .contact h3 span:after,
+    .gallery h3 span:after,
+    .services h3 span:after {
+        right: 48.5%
+    }
+    .banner-bottom h3:after,
+    .contact h3:after,
+    .gallery h3:after,
+    .services h3:after {
+        right: 28.5%
+    }
+    .banner-bottom h3:after,
+    .banner-bottom h3:before,
+    .contact h3:after,
+    .contact h3:before,
+    .services h3:after,
+    .services h3:before {
+        bottom: 7.5%
+    }
+    .banner-bottom-grids {
+        margin: 2em 0 0
+    }
+    .testimonials h3 span:before,
+    .testimonials-grid-right h3 span:before {
+        left: 47.3%
+    }
+    .testimonials h3:after,
+    .testimonials h3:before,
+    .testimonials-grid-right h3:after,
+    .testimonials-grid-right h3:before {
+        bottom: 8%
+    }
+    .testimonials h3:before,
+    .testimonials-grid-right h3:before {
+        left: 27%
+    }
+    .testimonials-grid-left-grid-right {
+        margin: 0
+    }
+    .bar_group.group_ident-1 {
+        width: 90%
+    }
+    .services-grid1 {
+        padding: 1em
+    }
+    .btn-lg {
+        font-size: 1.2em
+    }
+    .services-grids-wedding1 {
+        width: 60%
+    }
+    .services-bottom h2 {
+        font-size: 1em
+    }
+    .services-bottom h2:after {
+        right: -3%
+    }
+    .services-bottom {
+        padding: 2em 0 0;
+        min-height: 220px
+    }
+    .services-bottom p {
+        font-size: .9em
+    }
+    .logo {
+        margin: 2em 0
+    }
+    .mail-grids {
+        margin: 2em 0 0
+    }
+    .mail-grid-left textarea {
+        min-height: 150px
+    }
+    .footer-logo a {
+        font-size: 2em
+    }
+    .footer-logo a img {
+        max-width: 75%
+    }
+    .footer-logo p {
+        width: 45%
+    }
+    .footer {
+        min-height: 290px
+    }
+    .copyright p {
+        margin: 1em 0 0
+    }
+}
+
+@media (max-width:414px) {
+    .banner {
+        min-height: 260px
+    }
+    .banner-info h2 {
+        font-size: 1.3em
+    }
+    .banner-info h3 {
+        font-size: 1em
+    }
+    .logo h1 a {
+        font-size: 1em;
+        line-height: 0
+    }
+    .banner-bottom h3,
+    .contact h3,
+    .gallery h3,
+    .services h3,
+    .testimonials h3,
+    .testimonials-grid-right h3 {
+        font-size: 1.7em
+    }
+    .banner-bottom h3 span:after,
+    .contact h3 span:after,
+    .gallery h3 span:after,
+    .services h3 span:after {
+        right: 48%
+    }
+    .banner-bottom h3:after,
+    .contact h3:after,
+    .gallery h3:after,
+    .services h3:after {
+        right: 27.5%
+    }
+    .testimonials-grid-left {
+        padding: 0
+    }
+    .testimonials h3 span:after,
+    .testimonials-grid-right h3 span:after {
+        right: 47.9%
+    }
+    .testimonials h3:after,
+    .testimonials h3:before,
+    .testimonials-grid-right h3:after,
+    .testimonials-grid-right h3:before {
+        bottom: 9%
+    }
+    .testimonials h3:after,
+    .testimonials-grid-right h3:after {
+        right: 27.5%
+    }
+    .testimonials-grid-left-grid-left {
+        width: 25%
+    }
+    .testimonials-grid-left-grid-right {
+        width: 70%
+    }
+    .services-grid {
+        float: none;
+        width: 80%;
+        margin: 0 auto
+    }
+    .services-grids-wedding1 {
+        width: 70%
+    }
+    .services-bottom {
+        min-height: 250px
+    }
+    .mail-grid-left,
+    .mail-grid-right {
+        padding: 0
+    }
+    .date-tag-left,
+    .date-tag-right {
+        float: none;
+        text-align: center
+    }
+    .date-tag-right {
+        margin: 1em 0 0
+    }
+    .get-in:nth-child(2) {
+        margin: 2em 0 0
+    }
+    .footer {
+        min-height: 310px
+    }
+    .services-grid1 {
+        padding: 1.5em
+    }
+}
+
+@media (max-width:384px) {
+    .mail-grid-left input[type=submit] {
+        margin-left: 0;
+        font-size: 14px;
+        width: 100%
+    }
+    .footer-logo p {
+        width: 50%
+    }
+}
+
+@media (max-width:375px) {
+    .banner-bottom h3 span:after,
+    .contact h3 span:after,
+    .gallery h3 span:after,
+    .services h3 span:after {
+        right: 47.3%
+    }
+    .banner-bottom h3:after,
+    .contact h3:after,
+    .gallery h3:after,
+    .services h3:after {
+        right: 27%
+    }
+    .testimonials h3 span:before,
+    .testimonials-grid-right h3 span:before {
+        left: 46.5%
+    }
+    .testimonials h3:before,
+    .testimonials-grid-right h3:before {
+        left: 26%
+    }
+    .services-bottom h2 {
+        width: 100%
+    }
+    .services-bottom h2:after {
+        right: -2%
+    }
+    .banner-bottom h3:after,
+    .banner-bottom h3:before,
+    .contact h3:after,
+    .contact h3:before,
+    .gallery h3:after,
+    .gallery h3:before,
+    .services h3:after,
+    .services h3:before {
+        bottom: 9.5%
+    }
+}
+
+@media (max-width:320px) {
+    .logo h1 a {
+        font-size: .9em
+    }
+    .icon-button {
+        margin: 0
+    }
+    .logo h1 {
+        line-height: .4
+    }
+    .blog-grid-right {
+        margin: 0
+    }
+    .b_label,
+    .b_tooltip span,
+    .banner-dummy p,
+    .banner-phone p,
+    .bar_label_max,
+    .bar_label_min,
+    .footer-logo p,
+    .get-in ul li,
+    .mail-grid-left textarea,
+    .navbar-nav>li>a,
+    .services-grid p,
+    .services-grids-wedding p,
+    p.testimonials-dummy {
+        font-size: 13px
+    }
+    .copyright p {
+        font-size: 13px;
+        margin: 1.5em 0 0
+    }
+    .footer {
+        min-height: 300px
+    }
+    .footer-logo a {
+        font-size: 1.7em
+    }
+    .get-in h4 {
+        font-size: 1.1em
+    }
+    .btn-primary1 {
+        font-size: 1.1em!important
+    }
+    .services-bottom h2 {
+        font-size: .9em
+    }
+    .services-bottom {
+        min-height: 220px
+    }
+    .services-bottom p {
+        font-size: .85em
+    }
+    .services-grids-wedding h5 {
+        font-size: 1.3em
+    }
+    .services-grids-wedding1 {
+        width: 85%
+    }
+    .btn-lg {
+        font-size: 1.1em
+    }
+    .banner-bottom h3:after,
+    .banner-bottom h3:before,
+    .contact h3:after,
+    .contact h3:before,
+    .gallery h3:after,
+    .gallery h3:before,
+    .services h3:after,
+    .services h3:before {
+        width: 35%
+    }
+    .banner-bottom h3 span:after,
+    .contact h3 span:after,
+    .gallery h3 span:after,
+    .services h3 span:after {
+        right: 46.3%
+    }
+    .banner-bottom h3:after,
+    .contact h3:after,
+    .gallery h3:after,
+    .services h3:after {
+        right: 11%
+    }
+    .banner-bottom h3:before,
+    .contact h3:before,
+    .services h3:before {
+        left: 12.3%
+    }
+    p.about-dummy {
+        margin: 1.5em auto 0;
+        font-size: 13px
+    }
+    .testimonials h3:after,
+    .testimonials h3:before,
+    .testimonials-grid-right h3:after,
+    .testimonials-grid-right h3:before {
+        width: 35%
+    }
+    .testimonials h3 span:before,
+    .testimonials-grid-right h3 span:before {
+        left: 45.8%
+    }
+    .testimonials h3:after,
+    .testimonials-grid-right h3:after {
+        right: 12.5%
+    }
+    .testimonials h3:before,
+    .testimonials-grid-right h3:before {
+        left: 10.5%
+    }
+    .navbar-toggle {
+        margin: 0 0 0 7.3em
+    }
+    .testimonials-grid-left-grid-right h4 i {
+        margin: 0
+    }
+    .services-grids {
+        margin: 2em 0
+    }
+}
