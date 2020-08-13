@@ -63,7 +63,7 @@ $(document).ready(function() {
 
     /* ---- Countdown timer ---- */
     $('#counter').countdown({
-        timestamp: new Date('2020-08-22T11:00:00+08:00')
+        timestamp: new Date('2020-08-22T10:30:00+08:00')
     });
 
 
